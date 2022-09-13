@@ -18,3 +18,5 @@ function containsDuplicate(nums) {
     }
     return false;
 };
+
+// Time Complexity = O(N)
