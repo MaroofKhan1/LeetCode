@@ -20,3 +20,4 @@ function containsDuplicate(nums) {
 };
 
 // Time Complexity = O(N)
+//Space Complexity = O(N)
