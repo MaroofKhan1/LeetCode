@@ -11,3 +11,4 @@ const isAnagram = function(s, t) {
 };
 
 // Time Complexity: NlogN + MlogM
+//Another way is to due it in linier time 
