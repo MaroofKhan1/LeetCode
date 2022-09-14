@@ -4,6 +4,7 @@
  * @return {boolean}
  */
 
+// Time Complexity: NlogN + Mlogn 
 
 const isAnagram = function(s, t) {
     const sSorted = s.split("").sort().join("")
@@ -11,5 +12,3 @@ const isAnagram = function(s, t) {
     return sSorted === tSorted
 };
 
-
-// Time Complexity: NlogN + Mlogn 
