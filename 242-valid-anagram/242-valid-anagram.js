@@ -3,6 +3,8 @@
  * @param {string} t
  * @return {boolean}
  */
+
+
 const isAnagram = function(s, t) {
     const sSorted = s.split("").sort().join("")
     const tSorted = t.split("").sort().join("")
@@ -10,4 +12,4 @@ const isAnagram = function(s, t) {
 };
 
 
-// Time Complexity : NlogN + Mlogn
+// Time Complexity: NlogN + Mlogn 
